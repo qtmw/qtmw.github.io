@@ -8,13 +8,21 @@
     <link href="https://fonts.googleapis.com/css2?family=Jersey+25&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
-        <h1>Luminus</h1>
-        <div class="button-container">
-            <button class="guest-button">Guest</button>
-            <button class="login-button">Login</button>
-            <button class="register-button">Register</button>
+    <div id="loading-screen">
+        <div class="loading-container">
+            <div class="loading-text">Connecting...</div>
         </div>
     </div>
+    <div id="main-content" class="hidden">
+        <div class="container">
+            <h1>Luminus</h1>
+            <div class="button-container">
+                <button class="guest-button">Guest</button>
+                <button class="login-button">Login</button>
+                <button class="register-button">Register</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
