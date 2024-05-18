@@ -24,12 +24,17 @@
         <div class="container">
             <h1>Luminus</h1>
             <div class="button-container">
-                <button class="guest-button">Guest</button>
+                <button class="guest-button">Demo</button>
                 <button class="login-button">Login</button>
                 <button class="register-button">Register</button>
             </div>
         </div>
     </div>
+    <script>
+        document.querySelector('.guest-button').addEventListener('click', function() {
+            window.location.href = 'play.html'; 
+        });
+    </script>
     <script src="script.js"></script>
 </body>
 </html>
